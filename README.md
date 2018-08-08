@@ -35,3 +35,29 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!doctype>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Home
+	</title>
+
+
+
+<style>
+	
+input{
+	width:80%;
+	padding:10px;
+	margin: 0 auto;
+	display: block;
+}
+</head>
+</style>
+<body id="result">
+<h1 align="center"> enter your colour name or color code here to cheak how to look this color</h1>
+<br><br>
+<input oninput="document.getElementById('result').style.backgroundColor=this.value">
+</body>
+</html>
